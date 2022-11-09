@@ -66,9 +66,11 @@ body{
     font-size: 20px;
 }
 section {
-    background: #000;
+    background: url(img/Untitled\ design.png);
     padding: 100px;
-   
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;   
 }
 
 
@@ -87,7 +89,7 @@ section p {
     text-align: center;
     font-size: 16px;
     font-weight: 300;
-    padding: 21px 166px;
+    padding: 20px 200px;
 }
 .ttddd{
     margin-top: 20px;
