@@ -168,3 +168,7 @@ ol li{
 .olcard {
     padding: 30px;
 }
+.disable{
+    background: red !important;
+    pointer-events: none;
+}
