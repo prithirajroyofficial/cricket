@@ -171,6 +171,6 @@ ol li{
     padding: 30px;
 }
 .disable{
-    background: red !important;
+    background: #a2a9af !important;
     pointer-events: none;
 }
