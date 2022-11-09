@@ -1,0 +1,168 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.secoundsection {
+    background-color: #151515;
+    padding: 20px 0;
+}
+.boxidea {
+    padding: 0;
+    padding-top: 50px;
+}
+.spacingsome {
+    margin-top: 20px;
+}
+.card{
+    border: 1px solid #434343;
+    border-radius: 0;
+    background-color: #0d0d0d;
+}
+
+
+.card h3 {
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 24px;
+    color: #ffff;
+}
+
+.card p {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 300;
+    color: #b3b3b3;
+}
+
+.card button {
+    padding: 10px;
+    border: none;
+    margin: 0px 20px 20px 20px;
+    background: #015196;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+    transition-duration: 0.4s;
+}
+
+.card button:hover {
+    background: #a2a9af;
+    transform: translateY(-1px);
+
+}
+
+
+.totalcard{
+    border: 0px;
+    
+}
+
+.pdt {
+    padding-top: 50px;
+}
+.totalcard h3{
+    font-weight: 400;
+    font-size: 20px;
+}
+section {
+    background: #000;
+    padding: 100px;
+   
+}
+
+
+
+section h1{
+    font-family: 'Dancing Script', cursive;
+    font-weight: 800;
+    color: #ff5e19;
+    text-align: center;
+    font-size: 60px;
+}
+
+
+section p {
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 300;
+    padding: 21px 166px;
+}
+.ttddd{
+    margin-top: 20px;
+}
+
+
+.innputt input{
+    height: 40px;
+    background: #151515;
+    border: 1.5px solid #ffffff;
+    width: 100%;
+    outline: none;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+}
+.innputt input:focus {
+    border: 2px solid #ffffff;;
+  }
+.teexxt p {
+    color: #afafaf;
+    font-family: 14px;
+    margin-top: 8px;
+}
+
+.firstinput {
+    margin: 10px 0;
+}
+
+.ttddd button {
+    margin: 20px;
+    font-size: 16px;
+    text-transform: inherit;
+    font-weight: 400px;
+
+}
+.blue span{
+    color: #ff5e19;
+}
+.firstinput p{
+    text-align: left;
+}
+
+.futter {
+    padding: 50px;
+    background: #151515;
+    border-top: 1px solid #717171;
+}
+
+
+.futter p {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 300;
+    text-align: center;
+
+}
+.futter a {
+    color: #ff5e19;
+    font-size: 15px;
+    font-weight: 300;
+    text-decoration: none;
+    
+}
+
+.secoundsection{
+    padding-bottom: 80px;
+}
+ol li{
+    padding-top: 20px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+
+}
+.olcard {
+    padding: 30px;
+}
