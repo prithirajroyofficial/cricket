@@ -47,26 +47,27 @@
                          <div class="card">
                             <img src="img/dhoni.jpg" alt="">
                             <h3>MS Dhoni</h3>
-                            <p>36 Goals . 120 Assist</p>
+                            <p>Top Run 110 </p>
                             <button onclick="addPlayer( this ,'MS Dhoni')">Select</button>
     
                          </div>
                       </div>
                       <div class="col-lg-4">
                          <div class="card">
-                            <img src="img/dhoni.jpg" alt="">
-                            <h3>MS Dhoni</h3>
-                            <p>36 Goals . 120 Assist</p>
-                            <button>Select</button>
+                            <img src="img/shakib al hasn .jpg" alt="">
+                            <h3>Shakib Al Hasan</h3>
+                            <p>Top Run 145</p>
+                            <button onclick="addPlayer( this ,'Shakib Al Hasan')" >Select</button>
     
                          </div>
                       </div>
                       <div class="col-lg-4">
                          <div class="card">
-                            <img src="img/dhoni.jpg" alt="">
-                            <h3>MS Dhoni</h3>
-                            <p>36 Goals . 120 Assist</p>
-                            <button>Select</button>
+                            <img src="img/liton das.jpg" alt="">
+                            <h3>Liton Das</h3>
+                            <p>Top Run 65</p>
+                            <button onclick="addPlayer( this ,'Liton Das')" >Select</button>
+                            
     
                          </div>
                       </div>
@@ -78,10 +79,10 @@
     
                     <div class="col-lg-4">
                        <div class="card">
-                          <img src="img/dhoni.jpg" alt="">
-                          <h3>MS Dhoni</h3>
-                          <p>36 Goals . 120 Assist</p>
-                          <button>Select</button>
+                          <img src="img/24updatenews-19.jpg" alt="">
+                          <h3>Musfiqur Rahman</h3>
+                          <p>Top Run 99</p>
+                          <button onclick="addPlayer( this ,'Musfiqur Rahman')" >Select</button>
   
                        </div>
                     </div>
@@ -158,22 +159,22 @@
                     <div class="container firstinput">
                         <div class="row">
                             <div class="col-lg-5 teexxt "><p> Per Player </p></div>
-                            <div class="col-lg-7 innputt"><input type="number" placeholder="10000"></div>
+                            <div class="col-lg-7 innputt"><input type="number" placeholder="10000" id="Budgetplayer"></div>
                         </div>
                     </div>
 
                     
-                    <button>Calculate</button>
+                    <button onclick="countPlyer( )">Calculate</button>
                    
 
-                    <p> Player Expenses  $ <span>5000</span> </p>
+                    <p> Player Expenses  $ <span id="playerExpenses">5000</span> </p>
 
 
 
                     <div class="container firstinput">
                         <div class="row">
                             <div class="col-lg-5 teexxt "><p> Manager </p></div>
-                            <div class="col-lg-7 innputt"><input type="number" placeholder="10000"></div>
+                            <div class="col-lg-7 innputt"><input type="number" placeholder="10000" id="manager"></div>
                         </div>
                     </div>
 
@@ -181,15 +182,15 @@
                     <div class="container firstinput">
                         <div class="row">
                             <div class="col-lg-5 teexxt "><p> Coach</p></div>
-                            <div class="col-lg-7 innputt"><input type="number" placeholder="10000"></div>
+                            <div class="col-lg-7 innputt"><input type="number" placeholder="10000" id="coach"></div>
                         </div>
                     </div>
-                    <button>Calculate Total</button>
+                    <button onclick="calculateTotal( )" >Calculate Total</button>
 
                     <div class="container firstinput">
                         <div class="row">
                             <div class="col-lg-7 teexxt "><p> Total</p></div>
-                            <div class="col-lg-5 teexxt blue "><p><span>$ </span> <span>11000</span></p></div>
+                            <div class="col-lg-5 teexxt blue "><p><span>$ </span> <span id="totalAmount">11000</span></p></div>
                             
                         </div>
                     </div>
